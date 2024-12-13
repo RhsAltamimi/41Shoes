@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>متجري</title>
+    <title>ماضينا الأول</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -43,13 +43,18 @@
             padding: 2rem;
             text-align: center;
         }
+        /* Override direction for phone number section */
+        .phone-number {
+            direction: ltr; /* Set the direction for phone number to left to right */
+            text-align: left; /* Align text to the left */
+        }
     </style>
 </head>
 <body>
     <header>
         <h2>ماضينا الأول لتجارة التمور</h2>
-        <img src="logo.png" alt="شعار المتجر">
-        <h1>مرحبًا بكم</h1>
+        <img src="LOGO.png" alt="شعار ماضينا الأول">
+        <h1>مرحبًا بكم في ماضينا الأول</h1>
         <p>وجهتكم الشاملة للحصول على منتجات عالية الجودة!</p>
     </header>
 
@@ -72,7 +77,8 @@
     <section id="contact">
         <h2>تواصل معنا</h2>
         <p>البريد الإلكتروني: m10mm@gmail.com</p>
-        <p>الهاتف: +971 50 5362639 </p>
+        <!-- Add class 'phone-number' to phone number paragraph -->
+        <p class="phone-number">الهاتف: +971 50 5362639 </p>
     </section>
 </body>
 </html>
